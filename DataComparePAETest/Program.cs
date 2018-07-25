@@ -199,7 +199,7 @@ namespace DataComparePAETest
                 //Print Differences/Result
                 if (errors.Count == 0)
                 {
-                    System.IO.StreamWriter files = new System.IO.StreamWriter(@"C:\Users\telango\Documents\Visual Studio 2015\Projects\Xml compare Log\xmllog.txt", true);
+                    System.IO.StreamWriter files = new System.IO.StreamWriter(@"C:\Users\Documents\Visual Studio 2015\Projects\Xml compare Log\xmllog.txt", true);
                     Console.WriteLine("Complete Match");
                     files.WriteLine("Complete Match");
                     files.Close();
@@ -209,7 +209,7 @@ namespace DataComparePAETest
                 {
 
 
-                    System.IO.StreamWriter files = new System.IO.StreamWriter(@"C:\Users\telango\Documents\Visual Studio 2015\Projects\Xml compare Log\xmllog.txt", true);
+                    System.IO.StreamWriter files = new System.IO.StreamWriter(@"C:\Users\Documents\Visual Studio 2015\Projects\Xml compare Log\xmllog.txt", true);
                     Console.WriteLine(item);
                     files.WriteLine(item);
                     Console.WriteLine("                                                   ");
